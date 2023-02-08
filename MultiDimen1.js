@@ -13,4 +13,7 @@ console.log(randomItems[0]);
 console.log('****************** Getting the second element in the first array');
 console.log(randomItems[0][1]);
 
+console.log('****************** print the number of the arrays');
+console.table(randomItems.length );
+
 
