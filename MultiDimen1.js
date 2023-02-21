@@ -1,7 +1,7 @@
 let randomItems = [
 
     ['red','blue','orange'],
-    ['Tim','Jim','Ann']
+    ['Tim','Jim','Ann','Bob','Jimmy']
 ];
 
 console.log('****************** print the randomItems TABLE ');
@@ -15,5 +15,8 @@ console.log(randomItems[0][1]);
 
 console.log('****************** print the number of the arrays');
 console.table(randomItems.length );
+
+console.log('****************** print the number elements of the second arrays');
+console.table(randomItems[1].length );
 
 
